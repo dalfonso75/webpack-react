@@ -49,7 +49,7 @@ module.exports = {
     new CleanWebpackPlugin(),
   ],
   optimization: {
-    minize: true,
+    minimize: true,
     minimizer: [new CssMinimizerPlugin(), new TerserPlugin()],
   },
 };
